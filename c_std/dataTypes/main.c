@@ -1,14 +1,28 @@
-/******************/ 
-/******************/ 
-// **Jimi Spier** // 
-/*****************/ 
-/*****************/ 
+/**********************************************/
+/**********************************************/ 
+//********Name: Jimi Spier*********************/
+//********Callsign: AJ7GW *********************/
+/**********************************************/
+/**********************************************/ 
+/**********************************************/ 
+//
+//
+//
+//
+//******************Headers********************
+
 #include <stdlib.h>
 #include <stdio.h>
 
+
 int main() {
+<<<<<<< HEAD
     //*****************Variables********************
     
+=======
+//*****************Variables********************
+
+>>>>>>> e570a62 (ugh)
     int num;//declared but unused variable
     int age = 40; 
 
@@ -19,7 +33,12 @@ int main() {
     
     int* ptr = &age; // Points to a location in memory where age is. Like a hyperlink to a resource elsewhere in the code/memory
     
+<<<<<<< HEAD
     //*****************Output***********************
+=======
+
+//*****************Output***********************
+>>>>>>> e570a62 (ugh)
     printf("%d \n",age); //uses int age using %d for Decimal//
     printf("%.2f\n",gpa); // uses double gpa with .2 places of precision, with %f for floating decimal. 
     printf("%c\n",grade); // uses single char grade with the %c for single Character.
