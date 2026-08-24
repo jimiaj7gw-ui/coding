@@ -7,6 +7,8 @@
 #include <stdio.h>
 
 int main() {
+    //*****************Variables********************
+    
     int num;//declared but unused variable
     int age = 40; 
 
@@ -17,6 +19,7 @@ int main() {
     
     int* ptr = &age; // Points to a location in memory where age is. Like a hyperlink to a resource elsewhere in the code/memory
     
+    //*****************Output***********************
     printf("%d \n",age); //uses int age using %d for Decimal//
     printf("%.2f\n",gpa); // uses double gpa with .2 places of precision, with %f for floating decimal. 
     printf("%c\n",grade); // uses single char grade with the %c for single Character.
