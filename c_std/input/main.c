@@ -26,7 +26,7 @@ int age = 0;
 //*******************Input*********************/
 //Display prompt and grab user input for first name
 printf("Enter your first name: "); // no need to use escape sequence. scanf creates a new line. 
-scanf("%s", nameFirst);
+scanf("%s", nameFirst); // enter nameFirst as a string of char data.
 
 //Display prompt and grab user input for last name
 printf("Enter your last name: ");
@@ -34,7 +34,8 @@ scanf("%s", nameLast);
 
 //Display prompt and grab user input for age
 printf("Enter your age: ");
-scanf("%d", &age);
+scanf("%d", &age);//The '&' tells the compiler, Here is the physical memory address (pointer) where age lives. 
+//Go directly to this spot in RAM and overwrite whatever is there with the user's input.
 
 
 
