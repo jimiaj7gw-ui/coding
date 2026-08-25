@@ -23,7 +23,7 @@ void funcONE(char fName[],char lName[], int mAge ){ // vars: nameFirst, nameLast
 };
 
 //*****************Variables********************/
-char nameFirst[10]; // char array with 10 spaces
+char nameFirst[10] // char array with 10 spaces
 char nameLast[10]; // char array with 10 spaces
 int age = 0; // whole number var with 0 initialization to dump trash data.
 
