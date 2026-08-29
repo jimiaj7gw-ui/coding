@@ -13,12 +13,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+//*****************Global Variables**************/
+
 int userChoice;
 
 int firstNumber = 0 ;
 int secondNumber = 0;
 int userAnswer=0;
 
+
+//******************Functions*****************//
 void userInstructions(){
     printf("\n");
     printf("\n");
@@ -46,12 +51,9 @@ void userMath(int userChoice, int firstNumber, int secondNumber ){
      
            
     
-
-
-
-
 };
 
+//***************Program Start*******************/
 
 int main() {
 //*****************Variables********************/
@@ -59,6 +61,7 @@ int main() {
     userInstructions();
         printf("\n");
         printf("\n");
+//*******************Output/Input****************/
 
     printf("Enter your choice of operation: ");
     scanf("%d",&userChoice);
@@ -73,6 +76,7 @@ int main() {
     printf("Enter second number; ");
     scanf("%d",&secondNumber);
     printf("\n");
+    
     userMath(userChoice,  firstNumber,  secondNumber);}
     else {
         printf("Invalid input");}
